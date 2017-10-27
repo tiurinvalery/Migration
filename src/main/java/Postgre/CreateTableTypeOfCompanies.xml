@@ -1,0 +1,16 @@
+
+
+
+
+<databasechangelog xmlns = "#" xmlns:xsi = "#" xsi:schemalocation="#"  >
+    <changeset id="5" author="tiurinvalery@gmail.com" rununchange="true" >
+        <createtable tablename ="typeofcompanies">
+            <column autoincrement = "true" name = "typeofcompanyId" type ="BIGINT">
+                <constrains nullable="false" primarykey="true"></constrains>
+            </column>
+            <column name = "typeofcompany" type="VARCHAR(255)">
+                <constrains nullable="false"></constrains>
+            </column>
+        </createtable>
+    </changeset>
+</databasechangelog>

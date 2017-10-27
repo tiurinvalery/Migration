@@ -1,0 +1,16 @@
+
+
+
+
+<databasechangelog xmlns = "#" xmlns:xsi = "#" xsi:schemalocation="#"  >
+    <changeset id="2" author="tiurinvalery@gmail.com" rununchange="true" >
+        <createtable tablename ="countries">
+            <column name = "countryId" autoincrement = "true" type = "BIGINT">
+                <constrains nullable="false" primarykey = "true"></constrains>
+            </column>
+            <column name = "countryname" type="VARCHAR(255)">
+                <constrains nullable="false"></constrains>
+            </column>
+        </createtable>
+    </changeset>
+</databasechangelog>

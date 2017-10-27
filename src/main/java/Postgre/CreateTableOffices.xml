@@ -1,0 +1,19 @@
+
+
+
+
+<databasechangelog xmlns = "#" xmlns:xsi = "#" xsi:schemalocation="#"  >
+    <changeset id="4" author="tiurinvalery@gmail.com" rununchange="true" >
+        <createtable tablename ="offices">
+            <column autoincrement = "true" name = "officeId" type ="BIGINT">
+                <constrains nullable="false" primarykey="true"></constrains>
+            </column>
+            <column name="companyId" type="BIGINT">
+                <constrains nullable="false" foreignkey="true"></constrains>
+            </column>
+            <column name="countryId" type="BIGINT">
+                <constrains nullable="false" foreignkey="true"></constrains>
+            </column>
+        </createtable>
+    </changeset>
+</databasechangelog>

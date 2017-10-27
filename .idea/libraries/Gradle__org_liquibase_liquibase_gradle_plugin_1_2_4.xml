@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.liquibase:liquibase-gradle-plugin:1.2.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.liquibase/liquibase-gradle-plugin/1.2.4/feb90ff5394cd5ad541e9eebc1f42506bea80784/liquibase-gradle-plugin-1.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.liquibase/liquibase-gradle-plugin/1.2.4/93525b0c7b811e66f896cb080e8c398e7fcf33f7/liquibase-gradle-plugin-1.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

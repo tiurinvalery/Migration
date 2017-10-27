@@ -1,0 +1,21 @@
+
+
+
+
+<databasechangelog xmlns = "#" xmlns:xsi = "#" xsi:schemalocation="#"  >
+    <changeset id="7" author="tiurinvalery@gmail.com" rununchange="true" >
+        <insert tablename="companies">
+            <column name = "companyname" value = "epam"></column>
+            <column name = "typeofcompany" value="1"></column>
+        </insert>
+        <insert tablename="companies">
+            <column name = "companyname" value = "Google"></column>
+            <column name = "typeofcompany" value="2"></column>
+        </insert>
+        <insert tablename="companies">
+            <column name="companyname" value="Netckrecker">
+            </column>
+            <column name="typeofcompany" value="2"></column>
+        </insert>
+    </changeset>
+</databasechangelog>

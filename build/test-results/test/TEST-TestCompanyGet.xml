@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCompanyGet" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-10-26T19:54:22" hostname="DESKTOP-ODUUL26" time="0.368">
+  <properties/>
+  <testcase name="testGetCompany" classname="TestCompanyGet" time="0.368"/>
+  <system-out><![CDATA[Try connect to DB
+Successfully connection
+Connected
+Connection close
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

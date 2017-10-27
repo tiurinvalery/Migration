@@ -1,0 +1,13 @@
+
+
+
+
+<databasechangelog xmlns = "#" xmlns:xsi = "#" xsi:schemalocation="#"  >
+    <changeset id="8" author="tiurinvalery@gmail.com" rununchange="true" >
+        <insert tablename="countries">
+            <column name="countryname" values="Ukraine"></column>
+            <column name="countryname" values="Island"></column>
+            <column name="countryname" values="USA"></column>
+        </insert>
+    </changeset>
+</databasechangelog>

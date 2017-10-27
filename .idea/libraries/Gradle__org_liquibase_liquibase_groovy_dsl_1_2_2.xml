@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.liquibase:liquibase-groovy-dsl:1.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.liquibase/liquibase-groovy-dsl/1.2.2/f7539da5a62c458cad94a848f10261e82ec95920/liquibase-groovy-dsl-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.liquibase/liquibase-groovy-dsl/1.2.2/eb996a378dffe6eadde530f4ef1f10adc846e48e/liquibase-groovy-dsl-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

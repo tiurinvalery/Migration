@@ -1,0 +1,3 @@
+<changeSet id="14" author="tiurinvalery@gmail.com">
+    <renameColumn tableName="workers" oldColumnName="workerage" newColumnName="workerAge" columnDataType="INT"/>
+</changeSet>

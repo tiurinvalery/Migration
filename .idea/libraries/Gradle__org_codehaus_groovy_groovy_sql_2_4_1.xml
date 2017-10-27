@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.codehaus.groovy:groovy-sql:2.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/2.4.1/5e7474fd5783bb534d2b228aa1c5571aaec2fd66/groovy-sql-2.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/2.4.1/4bf9a05704a6f5ea927828b87617c6619856a8ae/groovy-sql-2.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

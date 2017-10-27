@@ -1,0 +1,25 @@
+
+
+
+
+
+
+<databasechangelog xmlns = "#" xmlns:xsi = "#" xsi:schemalocation="#"  >
+    <changeset id="9" author="tiurinvalery@gmail.com" rununchange="true" >
+        <insert tablename="directories">
+            <column name="companyId" values="1"></column>
+            <column name="directoryname" values="keepers"></column>
+            <column name="officeId" values="1"></column>
+        </insert>
+        <insert tablename="directories">
+            <column name="companyId" values="2"></column>
+            <column name="directoryname" values="webTeam"></column>
+            <column name="officeId" values="2"></column>
+        </insert>
+        <insert tablename="directories">
+            <column name="companyId" values="3"></column>
+            <column name="directoryname" values="supportTeam"></column>
+            <column name="officeId" values="3"></column>
+        </insert>
+    </changeset>
+</databasechangelog>

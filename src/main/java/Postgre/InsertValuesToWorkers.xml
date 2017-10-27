@@ -1,0 +1,24 @@
+<databasechangelog xmlns = "#" xmlns:xsi = "#" xsi:schemalocation="#"  >
+    <changeset id="12" author="tiurinvalery@gmail.com" rununchange="true" >
+        <insert tablename="workers">
+            <column name="companyId" values="1"></column>
+            <column name="directoryId" values="1"></column>
+            <column name="workerage" values="18"></column>
+            <column name="workername" values="Valera"></column>
+            <column name="workerposition" values="Junior Developer"></column>
+        </insert>
+        <insert tablename="workers">
+            <column name="companyId" values="2"></column>
+            <column name="directoryId" values="2"></column>
+            <column name="workerage" values="20"></column>
+            <column name="workername" values="Vova"></column>
+            <column name="workerposition" values="ML Specialize"></column>
+        </insert>
+        <insert tablename="workers">
+            <column name="companyId" values="3"></column>
+            <column name="directoryId" values="3"></column>
+            <column name="workerage" values="20"></column>
+            <column name="workerposition" values="Junior Java Developer"></column>
+        </insert>
+    </changeset>
+</databasechangelog>
