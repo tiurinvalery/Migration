@@ -1,9 +1,0 @@
-
-<databasechangelog xmlns = "#" xmlns:xsi = "#" xsi:schemalocation="#"  >
-    <changeset id="11" author="tiurinvalery@gmail.com" rununchange="true" >
-        <insert tablename="typeofcompanies">
-            <column name = "typeofcompany" values="outcource"></column>
-            <column name=  "typeofcompany" values="owner product"></column>
-        </insert>
-    </changeset>
-</databasechangelog>

@@ -1,0 +1,34 @@
+<databaseChangeLog xmlns = "http://www.liquibase.org/xml/ns/dbchangelog/1.9" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd"  >
+    <changeSet id="12" author="tiurinvalery@gmail.com" runOnChange="true" >
+        <insert tableName="workers">
+            <column name="companyId" value="1"></column>
+            <column name="directoryId" value="1"></column>
+            <column name="workerage" value="18"></column>
+            <column name="workername" value="Valera"></column>
+            <column name="workerposition" value="Junior Developer"></column>
+        </insert>
+        <rollback>
+            DELETE FROM workers WHERE workerId = 1
+        </rollback>
+        <insert tableName="workers">
+            <column name="companyId" value="2"></column>
+            <column name="directoryId" value="2"></column>
+            <column name="workerage" value="20"></column>
+            <column name="workername" value="Vova"></column>
+            <column name="workerposition" value="ML Specialize"></column>
+        </insert>
+        <rollback>
+            DELETE FROM workers WHERE workerId = 2
+        </rollback>
+        <insert tableName="workers">
+            <column name="companyId" value="3"></column>
+            <column name="directoryId" value="3"></column>
+            <column name="workerage" value="20"></column>
+            <column name="workerposition" value="Junior Java Developer"></column>
+        </insert>
+        <rollback>
+            DELETE FROM workers WHERE workerId = 3
+        </rollback>
+    </changeSet>
+</databaseChangeLog>
