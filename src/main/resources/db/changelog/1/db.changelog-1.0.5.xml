@@ -1,0 +1,24 @@
+<databaseChangeLog xmlns = "http://www.liquibase.org/xml/ns/dbchangelog/1.9" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd"  >
+    <changeSet id="6" author="tiurinvalery@gmail.com" runOnChange="true" >
+        <createTable tableName ="workers">
+           <column name = "workerId" type ="BIGINT" autoIncrement = "true">
+               <constraints nullable="false" primaryKey="true"></constraints>
+           </column>
+            <column name = "companyId" type="BIGINT">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="directoryId" type="BIGINT">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name = "workerage" type="INT">
+            </column>
+            <column name="workername" type="VARCHAR(255)">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="workerposition" type="VARCHAR(255)">
+                <constraints nullable="false"></constraints>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
