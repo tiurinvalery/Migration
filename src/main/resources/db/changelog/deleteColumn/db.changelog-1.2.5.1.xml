@@ -1,0 +1,6 @@
+<changeset id="13" author="tiurinvalery@gmail.com" runOnChange="true">
+    <addcolumn tablename="workers">
+        <column name="experience_level" type="VARCHAR(255)"></column>
+        <column name="technology" type="VARCHAR(255)"></column>
+    </addcolumn>
+</changeset>

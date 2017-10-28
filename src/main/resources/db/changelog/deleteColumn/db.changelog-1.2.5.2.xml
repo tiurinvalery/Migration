@@ -1,0 +1,10 @@
+<changeset id="14" author="tiurinvalery@gmail.com" runOnChange="true">
+   <sql>
+       UPDATE workers SET experience_level = SUBSTRING_INDEX(workerposition,' ',1);
+       UPDATE workers SET technology = SUBSTRING_INDEX(workerposition,' ',-1);
+   </sql>
+    <rollback>
+        UPDATE Person SET experience_level = '';
+        UPDATE Person SET technology = '';
+    </rollback>
+</changeset>

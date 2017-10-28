@@ -1,5 +1,0 @@
-<changeSet author="tiurinvalery@gmail.com" id="15">
-    <delete catalogName="lab1DB"
-            schemaName="public" >
-    </delete>
-</changeSet>

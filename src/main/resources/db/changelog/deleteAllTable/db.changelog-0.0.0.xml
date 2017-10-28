@@ -1,0 +1,6 @@
+<changeSet>
+    <delete catalogName="lab3"
+            schemaName="public" >
+    </delete>
+    <createSchema schemaName="public" catalogName="lab3"></createSchema>
+</changeSet>

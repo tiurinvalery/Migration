@@ -1,0 +1,10 @@
+<changeset id="13" author="tiurinvalery@gmail.com" runOnChange="true">
+    <dropcolumn tablename="companies" columnname="companyname"></dropcolumn>
+    <rollback>
+        <addcolumn tablename="companies">
+            <column name="companyname" type="VARCHAR(255)">
+                <constraints nullable="false"> </constraints>
+            </column>
+        </addcolumn>
+    </rollback>
+</changeset>

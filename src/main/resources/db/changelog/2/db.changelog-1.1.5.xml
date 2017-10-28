@@ -25,6 +25,7 @@
             <column name="companyId" value="3"></column>
             <column name="directoryId" value="3"></column>
             <column name="workerage" value="20"></column>
+            <column name="workername" value="Pasha"></column>
             <column name="workerposition" value="Junior Java Developer"></column>
         </insert>
         <rollback>

@@ -5,7 +5,7 @@
             <column name = "countryId" type ="BIGINT" autoIncrement = "true">
                 <constraints nullable="false" primaryKey="true"></constraints>
             </column>
-            <column name = "companyName" type="VARCHAR(255)">
+            <column name = "countryname" type="VARCHAR(255)">
                 <constraints nullable="false"></constraints>
             </column>
         </createTable>

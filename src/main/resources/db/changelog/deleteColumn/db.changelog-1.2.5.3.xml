@@ -1,0 +1,13 @@
+<changeset id="15" author="tiurinvalery@gmail.com" runOnChange="true">
+    <dropColumn tablename="workers" columnname="workerposition"></dropColumn>
+    <rolback>
+        <addcolumn tablename="workers">
+            <column name="workerposition" type="VARCHAR(255)">
+                <constraints nullable="false"></constraints>
+            </column>
+        </addcolumn>
+        <sql>
+            UPDATE workers SET workerposition = CONCAT(experience_level,,CONCAT(' ', technology)
+        </sql>
+    </rolback>
+</changeset>
