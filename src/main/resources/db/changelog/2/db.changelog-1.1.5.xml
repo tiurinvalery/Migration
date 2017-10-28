@@ -16,7 +16,7 @@
             <column name="directoryId" value="2"></column>
             <column name="workerage" value="20"></column>
             <column name="workername" value="Vova"></column>
-            <column name="workerposition" value="ML Specialize"></column>
+            <column name="workerposition" value="Junior ML Specialize"></column>
         </insert>
         <rollback>
             DELETE FROM workers WHERE workerId = 2
