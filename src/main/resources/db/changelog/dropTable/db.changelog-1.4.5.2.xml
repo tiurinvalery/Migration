@@ -1,0 +1,24 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+    <changeSet id="19" author="tiurinvalery@gmail.com">
+       <sql>
+           INSERT into employees ( "dirId","compId",employeename,employeeposition,employeeage)
+           SELECT  w."companyId",w."companyId",w.workername , w.technology, w."workerAge"
+           FROM workers w
+           WHERE w.workername LIKE 'Valera'
+       </sql>
+        <sql>
+            INSERT into employees ( "dirId","compId",employeename,employeeposition,employeeage)
+            SELECT  w."companyId",w."companyId",w.workername , w.technology, w."workerAge"
+            FROM workers w
+            WHERE w.workername LIKE 'Vova'
+        </sql>
+        <sql>
+            INSERT into employees ( "dirId","compId",employeename,employeeposition,employeeage)
+            SELECT  w."companyId",w."companyId",w.workername , w.technology, w."workerAge"
+            FROM workers w
+            WHERE w.workername LIKE 'Pasha'
+        </sql>
+
+    </changeSet>
+</databaseChangeLog>

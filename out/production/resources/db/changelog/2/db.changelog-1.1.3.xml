@@ -1,0 +1,27 @@
+<databaseChangeLog xmlns = "http://www.liquibase.org/xml/ns/dbchangelog/1.9" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd"  >
+    <changeSet id="10" author="tiurinvalery@gmail.com" runOnChange="true" >
+        <insert tableName="offices">
+            <column name="companyId" value="1"></column>
+            <column name="countryId" value="1"></column>
+        </insert>
+        <rollback>
+            DELETE FROM offices WHERE companyID = 1
+        </rollback>
+        <insert tableName="offices">
+            <column name="companyId" value="2"></column>
+            <column name="countryId" value="2"></column>
+        </insert>
+        <rollback>
+            DELETE FROM offices WHERE companyID = 2
+        </rollback>
+        <insert tableName="offices">
+            <column name ="companyId" value="3"></column>
+            <column name="countryId" value="1"></column>
+        </insert>
+        <rollback>
+            DELETE FROM offices WHERE companyID = 3
+        </rollback>
+
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,15 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+    <changeSet id="add temp column" author="tiurinvalery@gmail.com">
+        <addColumn tableName="employees">
+            <column name="tempCompId" type = "BIGINT"></column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="19" author="tiurinvalery@gmail.com">
+       <sql>
+            INSERT INTO employees(tempCompId)
+           SELECT companyId
+           FROM workers
+       </sql>
+    </changeSet>
+</databaseChangeLog>

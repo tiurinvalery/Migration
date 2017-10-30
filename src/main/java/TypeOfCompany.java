@@ -26,7 +26,7 @@ public class TypeOfCompany {
         Connection con = Connect.connect();
         try {
             Statement statement = con.createStatement();
-            ResultSet rs = statement.executeQuery("SELECT * FROM typeofcompany");
+            ResultSet rs = statement.executeQuery("SELECT * FROM typeofcompanies");
             while(rs.next()) {
                 TypeOfCompany nType = new TypeOfCompany();
                 nType.typeOfCompanyId = rs.getInt(1);

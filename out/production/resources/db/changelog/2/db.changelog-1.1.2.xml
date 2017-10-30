@@ -1,0 +1,29 @@
+<databaseChangeLog xmlns = "http://www.liquibase.org/xml/ns/dbchangelog/1.9" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd"  >
+    <changeSet id="9" author="tiurinvalery@gmail.com" runOnChange="true" >
+        <insert tableName="directories">
+            <column name="companyId" value="1"></column>
+            <column name="directoryname" value="keepers"></column>
+            <column name="officeId" value="1"></column>
+        </insert>
+        <rollback>
+            DELETE FROM directories WHERE directoryname LIKE 'keepers'
+        </rollback>
+        <insert tableName="directories">
+            <column name="companyId" value="2"></column>
+            <column name="directoryname" value="webTeam"></column>
+            <column name="officeId" value="2"></column>
+        </insert>
+        <rollback>
+            DELETE FROM directories WHERE directoryname LIKE 'webTeam'
+        </rollback>
+        <insert tableName="directories">
+            <column name="companyId" value="3"></column>
+            <column name="directoryname" value="supportTeam"></column>
+            <column name="officeId" value="3"></column>
+        </insert>
+        <rollback>
+            DELETE FROM directories WHERE directoryname LIKE 'supportTeam'
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

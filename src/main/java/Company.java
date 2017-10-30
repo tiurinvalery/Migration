@@ -27,7 +27,7 @@ public class Company {
         Connection con = Connect.connect();
         try {
             Statement statement = con.createStatement();
-            ResultSet rs = statement.executeQuery("SELECT * FROM company");
+            ResultSet rs = statement.executeQuery("SELECT * FROM companies");
             while(rs.next()) {
                 Company nCompany = new Company();
                 nCompany.companyId=rs.getInt(1);
