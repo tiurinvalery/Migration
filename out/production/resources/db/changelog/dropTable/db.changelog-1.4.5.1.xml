@@ -5,10 +5,10 @@
             <column name = "employeeId" type ="BIGINT" autoIncrement = "true">
                 <constraints nullable="false" primaryKey="true"></constraints>
             </column>
-            <column name = "companyId" type="BIGINT">
+            <column name = "compId" type="INT" >
                 <constraints nullable="false"></constraints>
             </column>
-            <column name="directoryId" type="BIGINT">
+            <column name="dirId" type="INT">
                 <constraints nullable="false"></constraints>
             </column>
             <column name = "employeeage" type="INT">

@@ -19,6 +19,7 @@ dependencies {
     liquibase 'org.liquibase:liquibase-core:3.2.2'
     sqlDriver 'postgresql:postgresql:9.1-901-1.jdbc4'
     compile group: 'org.liquibase', name: 'liquibase-gradle-plugin', version: '1.2.4'
+    testCompile 'org.mockito:mockito-core:1.9.+'
 }
 
 task updateDb(type: JavaExec) {
