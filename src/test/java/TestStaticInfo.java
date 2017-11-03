@@ -2,7 +2,7 @@ import org.junit.Test;
 
 public class TestStaticInfo {
     @Test
-    public void TestStInfo() {
+    public void testStInfo() {
         String realUrl=Connect.db_url;
         String realUserName=Connect.user;
         String realPass=Connect.password;

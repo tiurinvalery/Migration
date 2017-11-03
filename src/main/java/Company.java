@@ -73,11 +73,5 @@ public class Company {
         return companyName != null ? companyName.equals(company.companyName) : company.companyName == null;
     }
 
-    @Override
-    public int hashCode() {
-        int result = companyId;
-        result = 31 * result + (companyName != null ? companyName.hashCode() : 0);
-        result = 31 * result + typeOfCompany;
-        return result;
-    }
+
 }

@@ -92,15 +92,5 @@ public class Worker {
         if (workerName != null ? !workerName.equals(worker.workerName) : worker.workerName != null) return false;
         return workerPosition != null ? workerPosition.equals(worker.workerPosition) : worker.workerPosition == null;
     }
-
-    @Override
-    public int hashCode() {
-        int result = workerId;
-        result = 31 * result + directoryId;
-        result = 31 * result + companyId;
-        result = 31 * result + workerAge;
-        result = 31 * result + (workerName != null ? workerName.hashCode() : 0);
-        result = 31 * result + (workerPosition != null ? workerPosition.hashCode() : 0);
-        return result;
-    }
+    
 }

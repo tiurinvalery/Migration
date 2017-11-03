@@ -66,10 +66,4 @@ public class TypeOfCompany {
         return typeOfCompany != null ? typeOfCompany.equals(that.typeOfCompany) : that.typeOfCompany == null;
     }
 
-    @Override
-    public int hashCode() {
-        int result = typeOfCompanyId;
-        result = 31 * result + (typeOfCompany != null ? typeOfCompany.hashCode() : 0);
-        return result;
-    }
 }

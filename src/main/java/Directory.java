@@ -75,12 +75,4 @@ public class Directory {
         return directoryName != null ? directoryName.equals(directory.directoryName) : directory.directoryName == null;
     }
 
-    @Override
-    public int hashCode() {
-        int result = companyId;
-        result = 31 * result + directoryId;
-        result = 31 * result + officeId;
-        result = 31 * result + (directoryName != null ? directoryName.hashCode() : 0);
-        return result;
-    }
 }

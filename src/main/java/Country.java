@@ -65,10 +65,4 @@ public class Country {
         return countryName != null ? countryName.equals(country.countryName) : country.countryName == null;
     }
 
-    @Override
-    public int hashCode() {
-        int result = countryId;
-        result = 31 * result + (countryName != null ? countryName.hashCode() : 0);
-        return result;
-    }
 }

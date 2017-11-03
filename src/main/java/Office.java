@@ -70,11 +70,4 @@ public class Office {
         return countryId == office.countryId;
     }
 
-    @Override
-    public int hashCode() {
-        int result = companyId;
-        result = 31 * result + officeId;
-        result = 31 * result + countryId;
-        return result;
-    }
 }
