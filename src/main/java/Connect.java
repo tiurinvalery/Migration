@@ -6,6 +6,7 @@ public class Connect {
     static final String db_url ="jdbc:postgresql://127.0.0.1:5432/lab3";
     static final String user = "lab";
     static final String password = "4444";
+
     static Connection connection = null;
 
     public static Connection connect() {
