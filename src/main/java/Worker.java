@@ -76,15 +76,7 @@ public class Worker {
         }
         return null;
     }
-    public static void getInfoAboutWorker(int ID) {
-        getWorkersFromDB();
-        for(Worker w : workers) {
-            if(w.workerId == ID) {
-                System.out.println(ID+" | companyId: " + w.companyId+ " | directoryId: " + w.directoryId+" |Age: "+w.workerAge+" |Name:"
-                +w.workerName+" |Position: "+w.workerPosition);
-            }
-        }
-    }
+
 
     @Override
     public boolean equals(Object o) {

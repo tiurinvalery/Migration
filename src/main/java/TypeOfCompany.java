@@ -53,14 +53,7 @@ public class TypeOfCompany {
         }
         return null;
     }
-    public static void getInfoAboutType(int ID) {
-        getTypeOfCompaniesFromDB();
-        for(TypeOfCompany toc : typeOfCompanies) {
-            if(toc.typeOfCompanyId == ID) {
-                System.out.println("typeOfCompanyId: "+toc.typeOfCompanyId+" | typeOfCompany: "+toc.typeOfCompany);
-            }
-        }
-    }
+
 
     @Override
     public boolean equals(Object o) {

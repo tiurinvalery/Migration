@@ -54,15 +54,6 @@ public class Country {
         }
         return null;
     }
-    public static void getInfoAboutCountries(int ID) {
-        getCountiesFromDB();
-        for(Country c: countryList) {
-            if(c.countryId == ID) {
-                System.out.println("countryId: "+c.countryId+" | countryName: "+c.countryName);
-            }
-        }
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

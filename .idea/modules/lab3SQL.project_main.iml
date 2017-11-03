@@ -11,6 +11,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: postgresql:postgresql:9.0-801.jdbc4" level="project" />
     <orderEntry type="library" name="Gradle: org.liquibase:liquibase-gradle-plugin:1.2.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.ajoberstar:gradle-jacoco:0.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy:2.4.1" level="project" />
     <orderEntry type="library" name="Gradle: org.liquibase:liquibase-core:3.4.2" level="project" />
     <orderEntry type="library" name="Gradle: org.liquibase:liquibase-groovy-dsl:1.2.2" level="project" />

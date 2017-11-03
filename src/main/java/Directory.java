@@ -60,14 +60,7 @@ public class Directory {
         }
         return null;
     }
-    public static void getInfoAboutDirectory(int ID) {
-        getDirectoriesFromDB();
-        for(Directory d: directoryList) {
-            if(d.directoryId == ID) {
-                System.out.println("directoryId: "+ d.directoryId+" | companyId: "+d.companyId+" | officeId: "+d.officeId+" |directoryName: "+d.directoryName);
-            }
-        }
-    }
+
 
     @Override
     public boolean equals(Object o) {

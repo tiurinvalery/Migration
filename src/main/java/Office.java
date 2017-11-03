@@ -56,14 +56,7 @@ public class Office {
         }
         return null;
     }
-    public static void getInfoAboutOffice(int ID) {
-        getOfficesFromDB();
-        for(Office o: offices) {
-            if(o.officeId == ID) {
-                System.out.println("officeID: "+o.officeId+" | countryID: "+o.countryId+" | companyId: "+o.companyId);
-            }
-        }
-    }
+
 
     @Override
     public boolean equals(Object o) {

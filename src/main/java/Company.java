@@ -61,15 +61,6 @@ public class Company {
         return null;
     }
 
-    public static void getInfoAboutCompany(int ID) {
-        getCompaniesFromDB();
-        for(Company c : companyList) {
-            if(c.companyId == ID) {
-                System.out.println("companyId: "+c.companyId+" | companyName: "+c.companyName+" | typeOfcompany: " + c.typeOfCompany);
-            }
-        }
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
